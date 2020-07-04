@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack:///./src/pages/about/main.css"],"names":[],"mappings":"AAAA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA","file":"about.d6f9703f46a9cf617bed.css","sourcesContent":["body {\n  background-color: #ca6664;\n}\nnav {\n  background-color: #00c400;\n}\n.title {\n  color: orange;\n}\n"],"sourceRoot":""}
