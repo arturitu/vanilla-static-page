@@ -1,0 +1,44 @@
+{
+  "name": "vanilla-static-site",
+  "version": "0.0.1",
+  "license": "MIT",
+  "description": "Multi page static site with Vanilla JS",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arturitu/vanilla-static-site.git"
+  },
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --mode development --host 0.0.0.0",
+    "build": "GENERATE_SOURCEMAP=false webpack --mode production --config webpack.config.js",
+    "stats": "webpack --profile --json > compilation-stats.json"
+  },
+  "author": "Arturo Paracuellos",
+  "devDependencies": {
+    "async": "3.2.0",
+    "babel-core": "6.26.3",
+    "babel-eslint": "10.0.3",
+    "babel-loader": "7.1.4",
+    "babel-plugin-transform-runtime": "6.23.0",
+    "babel-polyfill": "6.26.0",
+    "babel-preset-env": "1.7.0",
+    "css-loader": "3.6.0",
+    "html-loader": "1.1.0",
+    "html-webpack-plugin": "4.3.0",
+    "mini-css-extract-plugin": "0.9.0",
+    "standard": "12.0.1",
+    "webpack": "4.39.3",
+    "webpack-cli": "3.3.7",
+    "webpack-dev-server": "3.11.0",
+    "whatwg-fetch": "3.0.0"
+  },
+  "dependencies": {
+    "virtual-dom": "2.1.1"
+  },
+  "eslintConfig": {
+    "extends": "vanilla-static-site"
+  },
+  "standard": {
+    "parser": "babel-eslint"
+  }
+}
